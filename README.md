@@ -25,3 +25,5 @@ Once these samples have been manually written, we could define a few-shot prompt
 Regarding the choice of the LLM: assuming that we meet the technical requirements, we could deploy an open-source model locally, such as Llama 3 or Mixtral; otherwise, assuming that we have the budget, we could employ GPT-4 via APIs; for limited budget and computer infrasctructure we could rely on smaller models such as Gemma, Phi, Mistral, or on Quantization of larger models.
 
 ### Assignment 3. Model integration.
+The service could be integrated into several applications by deploying the trained model and allow other systems interact with it via API calls. A solution could be using Flask, a Python framework for creating web applications. This would require the definition of API endpoints and of preprocessing functions (to prepare the input text into the format required by the model).
+Another solution could be containerizing the model with Docker: this would allow the model to be deployed and used in any environment and without API calls.
