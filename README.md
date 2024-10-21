@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/53ff408c-41dc-4478-ad46-96072d7b7518)# Food Delivery (Geckosoft Challenge)
-
 ### Assignment 1. ML model design and description.
 The ML model should predict the food and delivery ratings based on the content of the textual comments shared by customers. Furthermore, it should propose an approval or rejection, providing a numerical reliability estimate.
 The customer reviews dataset presents a _Comment_ column, containing the text written by the user, _FoodRating_ and _DeliveryRating_ columns, containing the ratings (1-5), and an _Approved_ column, containing a flag to indicate whether the comment has been approved (1) or rejected (0) by the moderation.
