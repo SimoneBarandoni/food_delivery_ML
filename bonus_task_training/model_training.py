@@ -20,7 +20,7 @@ LEARNING_RATE = 2e-5
 # Load BERT tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
-# Corrected Tokenization
+# Tokenization
 def preprocess_texts(texts):
     # Tokenize the texts and pad/truncate to MAX_LEN
     encoded = tokenizer(list(texts), 
