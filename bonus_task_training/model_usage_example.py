@@ -8,7 +8,7 @@ loaded_model = load_model('food_delivery_model.h5', custom_objects={"TFBertModel
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
-# Now you can use loaded_model to make predictions
+# Function to predict ratings and approval/reject for a new comment
 def predict_ratings_and_approval(comment):
     # Tokenize and preprocess the comment
     inputs = tokenizer(comment, 
